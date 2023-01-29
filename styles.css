@@ -1,0 +1,296 @@
+body {
+  width: 1440px;
+  color: #1b1b1b;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #64646a;
+  font-family: 'Jost', sans-serif;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+  color: #1b1b1d;
+}
+
+.button {
+  width: 208px;
+  height: 56px;
+  background-color: #1b1b1d;
+  border-radius: 63px;
+  color: white;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #eeeff1;
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 123px;
+}
+
+.header-logo {
+  width: 126px;
+}
+.logo {
+  width: 100%;
+}
+.header_menu {
+}
+
+.menu_list {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 40px;
+}
+.list_item {
+  font-size: 15px;
+  line-height: 22px;
+}
+.basket_logo {
+}
+
+/* MAIN SCREEN */
+
+.main-screen {
+  background-color: #eeeff1;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.main-screen--two_colums {
+  display: flex;
+  padding-bottom: 131px;
+}
+.left-column {
+  width: 597px;
+}
+
+.left-column_title {
+  font-weight: 800;
+  font-size: 124px;
+  line-height: 140px;
+  margin-bottom: 30px;
+}
+
+.left-column_text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  width: 521px;
+  margin-bottom: 60px;
+}
+.left-column_buttons {
+  width: 376px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column_shop {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+}
+.right-column {
+}
+
+/* SERVICES */
+
+.services {
+  padding-top: 150px;
+  position: relative;
+  background-color: #F3F4F5;
+
+}
+.services_title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.services_text {
+  text-align: center;
+  width: 604px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.services_list {
+  display: flex;
+  justify-content: space-between;
+}
+.services_item {
+  width: 393px;
+  padding: 40px;
+  border-radius: 24px;
+  background-color: white;
+}
+.services_catering {
+}
+.service_title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+}
+.service_text {
+    margin-bottom: 60px;
+}
+
+.service_img {
+  width: 150px;
+  text-align: center;
+}
+
+.service_button {
+}
+.services_food {
+}
+.services_gelato {
+}
+.order {
+}
+.order_two-columns {
+}
+.order_left-column {
+}
+.order_right-column {
+}
+.order_title {
+}
+.order_text {
+}
+.order_button {
+}
+.catague {
+}
+.catalogue_title {
+}
+.catalogue_text {
+}
+.catalogue_items {
+}
+.catalogue_item {
+}
+.item_inner {
+}
+.inner_img {
+}
+.inner_text {
+}
+.text_selling {
+}
+.item_title {
+}
+.item_text {
+}
+.item_order {
+}
+.item_price {
+}
+.item_purchase {
+}
+.app {
+}
+.app_two-colums {
+}
+.two-columns_left {
+}
+.app_title {
+}
+.app_text {
+}
+.app_button {
+}
+.button {
+}
+.two-colums_right {
+}
+.reviews {
+}
+.reviews_two-columns {
+}
+.reviews-list {
+}
+.review_item {
+}
+.review_name-stars {
+}
+.review_name {
+}
+.review_text {
+}
+.two-columns_text {
+}
+.reviews_title {
+}
+.reviews_rating {
+}
+.rating_left {
+}
+.rating_score {
+}
+.rating_right {
+}
+.raiting_text {
+}
+.rating_buttons {
+}
+.button-left {
+}
+.button-right {
+}
+.footer {
+}
+.footer_two-coluns {
+}
+.footer_left {
+}
+.left_upper-text {
+}
+.left_title {
+}
+.left_down-text {
+}
+.footer_right {
+}
+.right_title {
+}
+.contacts_list {
+}
+.contacts_item {
+}
+.email-icon {
+}
+.contacts_email {
+}
+.contacts_phone {
+}
+.contacts_social {
+}
+.social_icon {
+}
+.subscription_title {
+}
+.email {
+}
+.subscribe_button {
+}
+.footer_line {
+}
+.footer_copyright {
+}
+.copyright {
+}
+.footer_terms {
+}
