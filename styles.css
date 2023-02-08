@@ -25,12 +25,13 @@ body {
 .button {
   width: 208px;
   height: 56px;
-  background-color: #1b1b1d;
+  background-color: #eeeff1;
   border-radius: 63px;
-  color: white;
+  color: black;
   font-size: 15px;
   line-height: 26px;
   font-weight: 500;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /* HEADER */
@@ -536,8 +537,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.copyright {
-}
 
 .accent {
   font-weight: 500;
@@ -558,4 +557,70 @@ body {
 .footer_terms >a:first-child {
   border-right: 1px solid #64646A;
   padding-right: 5px;
+}
+
+
+/* Buttons */
+.button {
+  -webkit-transform: translate3D(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  color: #2d2d2d;
+  padding: 10px 0px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  width: 260px;
+  margin: 30px 0;
+  text-align: center;
+}
+.button:after {
+  padding: 0;
+  
+  content: '';
+  width: 95%;
+  height: 46px;
+  display: block;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+}
+.button:before {
+  -webkit-transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
+  transition: all 0s ease-in-out;
+  content: '';
+  width: 100%;
+  height: 60px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-left: 15px solid white;
+  box-shadow: -20px 30px 30px white;
+  background: transparent;
+  top: 0px;
+  left: -15px;
+  margin-left: -1px;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+ .button:hover:before, .button:active:before, .button:focus:before {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: translate(115%, 0);
+  -moz-transform: translate(115%, 0);
+  -ms-transform: translate(115%, 0);
+  -o-transform: translate(115%, 0);
+  transform: translate(115%, 0);
 }
